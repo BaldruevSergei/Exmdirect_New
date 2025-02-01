@@ -1,0 +1,334 @@
+2025-02-01T13:46:25.257+08:00  INFO 13736 --- [exmdirect_new] [restartedMain] c.example.exmdirect_new.DemoApplication  : Starting DemoApplication using Java 17.0.13 with PID 13736 (D:\AIT-TR\Exmdirect_New\demo\build\classes\java\main started by 42 in D:\AIT-TR\Exmdirect_New\demo)
+2025-02-01T13:46:25.259+08:00  INFO 13736 --- [exmdirect_new] [restartedMain] c.example.exmdirect_new.DemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-02-01T13:46:25.371+08:00  INFO 13736 --- [exmdirect_new] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-01T13:46:25.371+08:00  INFO 13736 --- [exmdirect_new] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-01T13:46:25.870+08:00  INFO 13736 --- [exmdirect_new] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-01T13:46:25.871+08:00  INFO 13736 --- [exmdirect_new] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-01T13:46:25.882+08:00  INFO 13736 --- [exmdirect_new] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2025-02-01T13:46:25.974+08:00  INFO 13736 --- [exmdirect_new] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-01T13:46:25.974+08:00  INFO 13736 --- [exmdirect_new] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-02-01T13:46:25.975+08:00  INFO 13736 --- [exmdirect_new] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JDBC repository interfaces.
+2025-02-01T13:46:26.405+08:00  INFO 13736 --- [exmdirect_new] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-02-01T13:46:26.413+08:00  INFO 13736 --- [exmdirect_new] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-01T13:46:26.413+08:00  INFO 13736 --- [exmdirect_new] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-01T13:46:26.446+08:00  INFO 13736 --- [exmdirect_new] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-01T13:46:26.446+08:00  INFO 13736 --- [exmdirect_new] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1071 ms
+2025-02-01T13:46:26.536+08:00 DEBUG 13736 --- [exmdirect_new] [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2025-02-01T13:46:26.594+08:00  INFO 13736 --- [exmdirect_new] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-01T13:46:26.622+08:00  INFO 13736 --- [exmdirect_new] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-01T13:46:26.640+08:00  INFO 13736 --- [exmdirect_new] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-01T13:46:26.788+08:00  INFO 13736 --- [exmdirect_new] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-01T13:46:26.803+08:00  INFO 13736 --- [exmdirect_new] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-01T13:46:26.905+08:00  INFO 13736 --- [exmdirect_new] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@22737878
+2025-02-01T13:46:26.906+08:00  INFO 13736 --- [exmdirect_new] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-01T13:46:26.943+08:00  INFO 13736 --- [exmdirect_new] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-01T13:46:26.946+08:00 DEBUG 13736 --- [exmdirect_new] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@32e1acd2) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@51141179)
+2025-02-01T13:46:26.946+08:00 DEBUG 13736 --- [exmdirect_new] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@7ba9b1d1) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@7d4ff18b)
+2025-02-01T13:46:27.454+08:00  INFO 13736 --- [exmdirect_new] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-01T13:46:27.483+08:00 DEBUG 13736 --- [exmdirect_new] [restartedMain] org.hibernate.SQL                        : 
+    create table public.class_subject (
+        id bigint generated by default as identity,
+        subject varchar(255) not null,
+        class_id bigint not null,
+        teacher_id bigint not null,
+        primary key (id)
+    )
+2025-02-01T13:46:27.488+08:00 DEBUG 13736 --- [exmdirect_new] [restartedMain] org.hibernate.SQL                        : 
+    create table public.school_classes (
+        id bigint generated by default as identity,
+        class_teacher_id bigint,
+        primary key (id)
+    )
+2025-02-01T13:46:27.491+08:00 DEBUG 13736 --- [exmdirect_new] [restartedMain] org.hibernate.SQL                        : 
+    create table public.students (
+        id bigint generated by default as identity,
+        email varchar(255),
+        first_name varchar(255) not null,
+        last_name varchar(255) not null,
+        login varchar(255) not null,
+        password varchar(255) not null,
+        user_role varchar(255) not null check (user_role in ('STUDENT','TEACHER','ADMIN')),
+        school_class_id bigint not null,
+        primary key (id)
+    )
+2025-02-01T13:46:27.494+08:00 DEBUG 13736 --- [exmdirect_new] [restartedMain] org.hibernate.SQL                        : 
+    create table public.teachers (
+        id bigint generated by default as identity,
+        email varchar(255),
+        first_name varchar(255) not null,
+        last_name varchar(255) not null,
+        login varchar(255) not null,
+        password varchar(255) not null,
+        user_role varchar(255) not null check (user_role in ('STUDENT','TEACHER','ADMIN')),
+        class_mentor varchar(255),
+        subject varchar(255) not null,
+        primary key (id)
+    )
+2025-02-01T13:46:27.498+08:00 DEBUG 13736 --- [exmdirect_new] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists public.students 
+       drop constraint if exists UKe2rndfrsx22acpq2ty1caeuyw
+2025-02-01T13:46:27.499+08:00  WARN 13736 --- [exmdirect_new] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2025-02-01T13:46:27.499+08:00  WARN 13736 --- [exmdirect_new] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : ограничение "uke2rndfrsx22acpq2ty1caeuyw" в таблице "students" не существует, пропускается
+2025-02-01T13:46:27.499+08:00 DEBUG 13736 --- [exmdirect_new] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists public.students 
+       add constraint UKe2rndfrsx22acpq2ty1caeuyw unique (email)
+2025-02-01T13:46:27.500+08:00 DEBUG 13736 --- [exmdirect_new] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists public.students 
+       drop constraint if exists UKs18kgmm54hshn77g9ox68khul
+2025-02-01T13:46:27.501+08:00  WARN 13736 --- [exmdirect_new] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2025-02-01T13:46:27.501+08:00  WARN 13736 --- [exmdirect_new] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : ограничение "uks18kgmm54hshn77g9ox68khul" в таблице "students" не существует, пропускается
+2025-02-01T13:46:27.501+08:00 DEBUG 13736 --- [exmdirect_new] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists public.students 
+       add constraint UKs18kgmm54hshn77g9ox68khul unique (login)
+2025-02-01T13:46:27.502+08:00 DEBUG 13736 --- [exmdirect_new] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists public.teachers 
+       drop constraint if exists UK4l9jjfvsct1dd5aufnurxcvbs
+2025-02-01T13:46:27.502+08:00  WARN 13736 --- [exmdirect_new] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2025-02-01T13:46:27.502+08:00  WARN 13736 --- [exmdirect_new] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : ограничение "uk4l9jjfvsct1dd5aufnurxcvbs" в таблице "teachers" не существует, пропускается
+2025-02-01T13:46:27.502+08:00 DEBUG 13736 --- [exmdirect_new] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists public.teachers 
+       add constraint UK4l9jjfvsct1dd5aufnurxcvbs unique (email)
+2025-02-01T13:46:27.504+08:00 DEBUG 13736 --- [exmdirect_new] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists public.teachers 
+       drop constraint if exists UKof822b80dti51305axmt775sr
+2025-02-01T13:46:27.504+08:00  WARN 13736 --- [exmdirect_new] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2025-02-01T13:46:27.504+08:00  WARN 13736 --- [exmdirect_new] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : ограничение "ukof822b80dti51305axmt775sr" в таблице "teachers" не существует, пропускается
+2025-02-01T13:46:27.504+08:00 DEBUG 13736 --- [exmdirect_new] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists public.teachers 
+       add constraint UKof822b80dti51305axmt775sr unique (login)
+2025-02-01T13:46:27.505+08:00 DEBUG 13736 --- [exmdirect_new] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists public.class_subject 
+       add constraint FKg5pcx37qmu1d1mrsb9f7x57y8 
+       foreign key (class_id) 
+       references public.school_classes
+2025-02-01T13:46:27.507+08:00 DEBUG 13736 --- [exmdirect_new] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists public.class_subject 
+       add constraint FK9ctkx96x2dokgkst5f9e84rlf 
+       foreign key (teacher_id) 
+       references public.teachers
+2025-02-01T13:46:27.509+08:00 DEBUG 13736 --- [exmdirect_new] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists public.school_classes 
+       add constraint FK5rb68706wfjjevd1eiym4h8h9 
+       foreign key (class_teacher_id) 
+       references public.teachers
+2025-02-01T13:46:27.510+08:00 DEBUG 13736 --- [exmdirect_new] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists public.students 
+       add constraint FK9y2p8c5ajb3uoypn39eiragjw 
+       foreign key (school_class_id) 
+       references public.school_classes
+2025-02-01T13:46:27.512+08:00  INFO 13736 --- [exmdirect_new] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-01T13:46:27.593+08:00  WARN 13736 --- [exmdirect_new] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-01T13:46:27.664+08:00 DEBUG 13736 --- [exmdirect_new] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2025-02-01T13:46:27.709+08:00 DEBUG 13736 --- [exmdirect_new] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-02-01T13:46:27.735+08:00 DEBUG 13736 --- [exmdirect_new] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-02-01T13:46:27.790+08:00 DEBUG 13736 --- [exmdirect_new] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-02-01T13:46:27.924+08:00  WARN 13736 --- [exmdirect_new] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'openAiChatModel' defined in class path resource [org/springframework/ai/autoconfigure/openai/OpenAiAutoConfiguration.class]: Failed to instantiate [org.springframework.ai.openai.OpenAiChatModel]: Factory method 'openAiChatModel' threw exception with message: OpenAI API key must be set. Use the connection property: spring.ai.openai.api-key or spring.ai.openai.chat.api-key property.
+2025-02-01T13:46:27.925+08:00  INFO 13736 --- [exmdirect_new] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-01T13:46:27.927+08:00  INFO 13736 --- [exmdirect_new] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-01T13:46:27.974+08:00  INFO 13736 --- [exmdirect_new] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-01T13:46:27.976+08:00  INFO 13736 --- [exmdirect_new] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-02-01T13:46:27.986+08:00  INFO 13736 --- [exmdirect_new] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-01T13:46:27.997+08:00 ERROR 13736 --- [exmdirect_new] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'openAiChatModel' defined in class path resource [org/springframework/ai/autoconfigure/openai/OpenAiAutoConfiguration.class]: Failed to instantiate [org.springframework.ai.openai.OpenAiChatModel]: Factory method 'openAiChatModel' threw exception with message: OpenAI API key must be set. Use the connection property: spring.ai.openai.api-key or spring.ai.openai.chat.api-key property.
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1361) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1191) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1122) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1093) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1030) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.2.jar:3.4.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.2.jar:3.4.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.2.jar:3.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.2.jar:3.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.2.jar:3.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.2.jar:3.4.2]
+	at com.example.exmdirect_new.DemoApplication.main(DemoApplication.java:10) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.2.jar:3.4.2]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.ai.openai.OpenAiChatModel]: Factory method 'openAiChatModel' threw exception with message: OpenAI API key must be set. Use the connection property: spring.ai.openai.api-key or spring.ai.openai.chat.api-key property.
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:199) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:88) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:168) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-6.2.2.jar:6.2.2]
+	... 26 common frames omitted
+Caused by: java.lang.IllegalArgumentException: OpenAI API key must be set. Use the connection property: spring.ai.openai.api-key or spring.ai.openai.chat.api-key property.
+	at org.springframework.util.Assert.hasText(Assert.java:253) ~[spring-core-6.2.2.jar:6.2.2]
+	at org.springframework.ai.autoconfigure.openai.OpenAiAutoConfiguration.resolveConnectionProperties(OpenAiAutoConfiguration.java:103) ~[spring-ai-spring-boot-autoconfigure-1.0.0-M5.jar:1.0.0-M5]
+	at org.springframework.ai.autoconfigure.openai.OpenAiAutoConfiguration.openAiApi(OpenAiAutoConfiguration.java:160) ~[spring-ai-spring-boot-autoconfigure-1.0.0-M5.jar:1.0.0-M5]
+	at org.springframework.ai.autoconfigure.openai.OpenAiAutoConfiguration.openAiChatModel(OpenAiAutoConfiguration.java:121) ~[spring-ai-spring-boot-autoconfigure-1.0.0-M5.jar:1.0.0-M5]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.2.2.jar:6.2.2]
+	... 29 common frames omitted
+
+2025-02-01T13:47:52.595+08:00  INFO 5300 --- [exmdirect_new] [restartedMain] c.example.exmdirect_new.DemoApplication  : Starting DemoApplication using Java 17.0.13 with PID 5300 (D:\AIT-TR\Exmdirect_New\demo\build\classes\java\main started by 42 in D:\AIT-TR\Exmdirect_New\demo)
+2025-02-01T13:47:52.596+08:00  INFO 5300 --- [exmdirect_new] [restartedMain] c.example.exmdirect_new.DemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-02-01T13:47:52.725+08:00  INFO 5300 --- [exmdirect_new] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-01T13:47:52.725+08:00  INFO 5300 --- [exmdirect_new] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-01T13:47:53.214+08:00  INFO 5300 --- [exmdirect_new] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-01T13:47:53.215+08:00  INFO 5300 --- [exmdirect_new] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-01T13:47:53.227+08:00  INFO 5300 --- [exmdirect_new] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2025-02-01T13:47:53.322+08:00  INFO 5300 --- [exmdirect_new] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-01T13:47:53.322+08:00  INFO 5300 --- [exmdirect_new] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-02-01T13:47:53.323+08:00  INFO 5300 --- [exmdirect_new] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JDBC repository interfaces.
+2025-02-01T13:47:53.749+08:00  INFO 5300 --- [exmdirect_new] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-02-01T13:47:53.757+08:00  INFO 5300 --- [exmdirect_new] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-01T13:47:53.757+08:00  INFO 5300 --- [exmdirect_new] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-01T13:47:53.789+08:00  INFO 5300 --- [exmdirect_new] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-01T13:47:53.789+08:00  INFO 5300 --- [exmdirect_new] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1064 ms
+2025-02-01T13:47:53.880+08:00 DEBUG 5300 --- [exmdirect_new] [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2025-02-01T13:47:53.941+08:00  INFO 5300 --- [exmdirect_new] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-01T13:47:53.972+08:00  INFO 5300 --- [exmdirect_new] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-01T13:47:53.990+08:00  INFO 5300 --- [exmdirect_new] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-01T13:47:54.138+08:00  INFO 5300 --- [exmdirect_new] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-01T13:47:54.153+08:00  INFO 5300 --- [exmdirect_new] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-01T13:47:54.257+08:00  INFO 5300 --- [exmdirect_new] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@60eef6fe
+2025-02-01T13:47:54.258+08:00  INFO 5300 --- [exmdirect_new] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-01T13:47:54.295+08:00  INFO 5300 --- [exmdirect_new] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-01T13:47:54.298+08:00 DEBUG 5300 --- [exmdirect_new] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@e04614c) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@609264cf)
+2025-02-01T13:47:54.298+08:00 DEBUG 5300 --- [exmdirect_new] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@4f2bc8d2) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@6329a405)
+2025-02-01T13:47:54.818+08:00  INFO 5300 --- [exmdirect_new] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-01T13:47:54.996+08:00  INFO 5300 --- [exmdirect_new] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-01T13:47:55.076+08:00  WARN 5300 --- [exmdirect_new] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-01T13:47:55.138+08:00 DEBUG 5300 --- [exmdirect_new] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2025-02-01T13:47:55.173+08:00 DEBUG 5300 --- [exmdirect_new] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-02-01T13:47:55.196+08:00 DEBUG 5300 --- [exmdirect_new] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-02-01T13:47:55.245+08:00 DEBUG 5300 --- [exmdirect_new] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-02-01T13:47:55.560+08:00  INFO 5300 --- [exmdirect_new] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-02-01T13:47:55.690+08:00  INFO 5300 --- [exmdirect_new] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-01T13:47:55.733+08:00  INFO 5300 --- [exmdirect_new] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-02-01T13:47:55.743+08:00  INFO 5300 --- [exmdirect_new] [restartedMain] c.example.exmdirect_new.DemoApplication  : Started DemoApplication in 3.364 seconds (process running for 3.727)
+2025-02-01T13:47:56.226+08:00  INFO 5300 --- [exmdirect_new] [RMI TCP Connection(2)-192.168.90.4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-01T13:47:56.226+08:00  INFO 5300 --- [exmdirect_new] [RMI TCP Connection(2)-192.168.90.4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-01T13:47:56.226+08:00 DEBUG 5300 --- [exmdirect_new] [RMI TCP Connection(2)-192.168.90.4] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-02-01T13:47:56.226+08:00 DEBUG 5300 --- [exmdirect_new] [RMI TCP Connection(2)-192.168.90.4] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-02-01T13:47:56.226+08:00 DEBUG 5300 --- [exmdirect_new] [RMI TCP Connection(2)-192.168.90.4] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-02-01T13:47:56.227+08:00 DEBUG 5300 --- [exmdirect_new] [RMI TCP Connection(2)-192.168.90.4] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@440d120f
+2025-02-01T13:47:56.228+08:00 DEBUG 5300 --- [exmdirect_new] [RMI TCP Connection(2)-192.168.90.4] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@7f4e0b9
+2025-02-01T13:47:56.228+08:00 DEBUG 5300 --- [exmdirect_new] [RMI TCP Connection(2)-192.168.90.4] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-02-01T13:47:56.228+08:00  INFO 5300 --- [exmdirect_new] [RMI TCP Connection(2)-192.168.90.4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-02-01T13:48:52.270+08:00  INFO 5300 --- [exmdirect_new] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-01T13:48:52.306+08:00  INFO 5300 --- [exmdirect_new] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-01T13:48:52.323+08:00  INFO 5300 --- [exmdirect_new] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-01T13:48:52.325+08:00  INFO 5300 --- [exmdirect_new] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-01T13:48:52.327+08:00  INFO 5300 --- [exmdirect_new] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-01T14:07:49.438+08:00  INFO 3896 --- [exmdirect_new] [restartedMain] c.example.exmdirect_new.DemoApplication  : Starting DemoApplication using Java 17.0.13 with PID 3896 (D:\AIT-TR\Exmdirect_New\demo\build\classes\java\main started by 42 in D:\AIT-TR\Exmdirect_New\demo)
+2025-02-01T14:07:49.440+08:00  INFO 3896 --- [exmdirect_new] [restartedMain] c.example.exmdirect_new.DemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-02-01T14:07:49.563+08:00  INFO 3896 --- [exmdirect_new] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-01T14:07:49.563+08:00  INFO 3896 --- [exmdirect_new] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-01T14:07:50.061+08:00  INFO 3896 --- [exmdirect_new] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-01T14:07:50.062+08:00  INFO 3896 --- [exmdirect_new] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-01T14:07:50.136+08:00  INFO 3896 --- [exmdirect_new] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 3 JPA repository interfaces.
+2025-02-01T14:07:50.235+08:00  INFO 3896 --- [exmdirect_new] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-01T14:07:50.235+08:00  INFO 3896 --- [exmdirect_new] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-02-01T14:07:50.237+08:00  INFO 3896 --- [exmdirect_new] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.exmdirect_new.repository.AdminRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-02-01T14:07:50.237+08:00  INFO 3896 --- [exmdirect_new] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.exmdirect_new.repository.StudentRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-02-01T14:07:50.237+08:00  INFO 3896 --- [exmdirect_new] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.exmdirect_new.repository.TeacherRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-02-01T14:07:50.238+08:00  INFO 3896 --- [exmdirect_new] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JDBC repository interfaces.
+2025-02-01T14:07:50.622+08:00  INFO 3896 --- [exmdirect_new] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-02-01T14:07:50.630+08:00  INFO 3896 --- [exmdirect_new] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-01T14:07:50.630+08:00  INFO 3896 --- [exmdirect_new] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-01T14:07:50.662+08:00  INFO 3896 --- [exmdirect_new] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-01T14:07:50.663+08:00  INFO 3896 --- [exmdirect_new] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1100 ms
+2025-02-01T14:07:50.752+08:00 DEBUG 3896 --- [exmdirect_new] [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2025-02-01T14:07:50.812+08:00  INFO 3896 --- [exmdirect_new] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-01T14:07:50.838+08:00  INFO 3896 --- [exmdirect_new] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-01T14:07:50.856+08:00  INFO 3896 --- [exmdirect_new] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-01T14:07:51.002+08:00  INFO 3896 --- [exmdirect_new] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-01T14:07:51.018+08:00  INFO 3896 --- [exmdirect_new] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-01T14:07:51.120+08:00  INFO 3896 --- [exmdirect_new] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@dcb8ad1
+2025-02-01T14:07:51.121+08:00  INFO 3896 --- [exmdirect_new] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-01T14:07:51.159+08:00  INFO 3896 --- [exmdirect_new] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-01T14:07:51.163+08:00 DEBUG 3896 --- [exmdirect_new] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@315f46f8) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@5e071cae)
+2025-02-01T14:07:51.163+08:00 DEBUG 3896 --- [exmdirect_new] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@23b62c90) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@6503fe13)
+2025-02-01T14:07:51.685+08:00  INFO 3896 --- [exmdirect_new] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-01T14:07:51.717+08:00 DEBUG 3896 --- [exmdirect_new] [restartedMain] org.hibernate.SQL                        : 
+    create table public.admin (
+        id bigint generated by default as identity,
+        email varchar(255),
+        first_name varchar(255) not null,
+        last_name varchar(255) not null,
+        login varchar(255) not null,
+        password varchar(255) not null,
+        user_role varchar(255) not null check (user_role in ('STUDENT','TEACHER','ADMIN')),
+        primary key (id)
+    )
+2025-02-01T14:07:51.725+08:00 DEBUG 3896 --- [exmdirect_new] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists public.admin 
+       drop constraint if exists UKc0r9atamxvbhjjvy5j8da1kam
+2025-02-01T14:07:51.726+08:00  WARN 3896 --- [exmdirect_new] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2025-02-01T14:07:51.726+08:00  WARN 3896 --- [exmdirect_new] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : ограничение "ukc0r9atamxvbhjjvy5j8da1kam" в таблице "admin" не существует, пропускается
+2025-02-01T14:07:51.727+08:00 DEBUG 3896 --- [exmdirect_new] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists public.admin 
+       add constraint UKc0r9atamxvbhjjvy5j8da1kam unique (email)
+2025-02-01T14:07:51.728+08:00 DEBUG 3896 --- [exmdirect_new] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists public.admin 
+       drop constraint if exists UK3x1e18lmu2r0xekpql9xme0pp
+2025-02-01T14:07:51.728+08:00  WARN 3896 --- [exmdirect_new] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2025-02-01T14:07:51.728+08:00  WARN 3896 --- [exmdirect_new] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : ограничение "uk3x1e18lmu2r0xekpql9xme0pp" в таблице "admin" не существует, пропускается
+2025-02-01T14:07:51.728+08:00 DEBUG 3896 --- [exmdirect_new] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists public.admin 
+       add constraint UK3x1e18lmu2r0xekpql9xme0pp unique (login)
+2025-02-01T14:07:51.871+08:00  INFO 3896 --- [exmdirect_new] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-01T14:07:51.963+08:00  WARN 3896 --- [exmdirect_new] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-01T14:07:52.028+08:00 DEBUG 3896 --- [exmdirect_new] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2025-02-01T14:07:52.057+08:00 DEBUG 3896 --- [exmdirect_new] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-02-01T14:07:52.080+08:00 DEBUG 3896 --- [exmdirect_new] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-02-01T14:07:52.131+08:00 DEBUG 3896 --- [exmdirect_new] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-02-01T14:07:52.362+08:00  INFO 3896 --- [exmdirect_new] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-02-01T14:07:52.833+08:00  INFO 3896 --- [exmdirect_new] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-02-01T14:07:52.959+08:00  INFO 3896 --- [exmdirect_new] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-01T14:07:53.004+08:00  INFO 3896 --- [exmdirect_new] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-02-01T14:07:53.014+08:00  INFO 3896 --- [exmdirect_new] [restartedMain] c.example.exmdirect_new.DemoApplication  : Started DemoApplication in 3.812 seconds (process running for 4.193)
+2025-02-01T14:07:53.519+08:00  INFO 3896 --- [exmdirect_new] [RMI TCP Connection(3)-192.168.90.4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-01T14:07:53.519+08:00  INFO 3896 --- [exmdirect_new] [RMI TCP Connection(3)-192.168.90.4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-01T14:07:53.520+08:00 DEBUG 3896 --- [exmdirect_new] [RMI TCP Connection(3)-192.168.90.4] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-02-01T14:07:53.520+08:00 DEBUG 3896 --- [exmdirect_new] [RMI TCP Connection(3)-192.168.90.4] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-02-01T14:07:53.520+08:00 DEBUG 3896 --- [exmdirect_new] [RMI TCP Connection(3)-192.168.90.4] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-02-01T14:07:53.520+08:00 DEBUG 3896 --- [exmdirect_new] [RMI TCP Connection(3)-192.168.90.4] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2a3e43ff
+2025-02-01T14:07:53.520+08:00 DEBUG 3896 --- [exmdirect_new] [RMI TCP Connection(3)-192.168.90.4] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@22f81c00
+2025-02-01T14:07:53.521+08:00 DEBUG 3896 --- [exmdirect_new] [RMI TCP Connection(3)-192.168.90.4] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-02-01T14:07:53.521+08:00  INFO 3896 --- [exmdirect_new] [RMI TCP Connection(3)-192.168.90.4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-02-01T14:09:22.699+08:00  INFO 3896 --- [exmdirect_new] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-01T14:09:22.737+08:00  INFO 3896 --- [exmdirect_new] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-01T14:09:22.746+08:00  INFO 3896 --- [exmdirect_new] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-01T14:09:22.749+08:00  INFO 3896 --- [exmdirect_new] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-01T14:09:22.750+08:00  INFO 3896 --- [exmdirect_new] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
